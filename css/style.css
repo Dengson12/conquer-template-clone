@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+}
+    
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", "Helvetica", "Arial", "sans-serif"!important;
+}
+  body {
+    margin:0; 
+    font-family: "Open Sans", "Helvetica", "Arial", "sans-serif"!important;
+    overflow-x: hidden;
+  }
+
+  p{
+    color: #000;
+    font-size: 14px;
+  }
+  
+  img{
+      width: 100%;
+      height: auto;
+  }
+
+/* NAVIGATION CSSS STARTS HERE */
+.navbar{
+    background-color: #383E4C;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9000;
+    
+}
+
+
+.navbar ul li{
+    list-style:none;
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+ .navbar ul li a{
+
+    background: rgb(71, 77, 92) none repeat scroll 0 0;
+    padding: 6px 30px;
+    color:#fff;
+    text-decoration: none;
+    border:1px solid rgb(153, 143, 143);
+    font-size:1.3em;
+    
+ }
+ 
+ .navbar ul li a:focus,
+ .navbar ul li a:hover{
+    background-color: #383E4C;
+   
+}
+
+    /* for all containers */
+ /* .container{
+     background-color: #000; for positioning purpose only
+     width: 100%;
+     margin: 0 auto;
+     width: 1170px;
+    
+     
+ } */
+
+ .navbar-nav{
+    /* background-color: #fff; for positioning purpose only*/
+    width: 900px;
+    margin-left: 20%;
+ }
+
+ /* HEADER CSS STARTS HERE */
+
+     #first-section{
+     background-image: url("../img/bg-1.jpg");
+     padding: 235px 0;
+     background-size: cover;
+     
+ } 
+
+
+ .text-content{
+     /* background-color: #bd0000; for proper positionig only */
+     text-align: center;
+ }
+  
+
+ .text-content h1{
+    color: #fff;
+     font-size: 64px;
+     margin-bottom: -12px; /*reducing  the spacing between h1 and h2*/
+     text-shadow: 2px 2px #000;
+     
+ }
+
+ .text-content h2{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    
+ }
+
+ /* START SECTION FEATURES */
+ #feature-area{
+    margin: 50px 0px 50px 65px;
+    
+}
+
+ .feature-content {
+    
+    width:70%;
+    background: #f2f2f2;
+    margin: 0px 25px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .feature-content-title{
+    text-transform: capitalize;
+    padding: 0px 20px;
+    text-align: left;
+}
+ 
+
+.feature-content-description {
+    padding: 0 20px 35px;
+    text-align: left;
+    color: #333333;
+    margin-top: 15px;
+ }
+
+ /* .feature-content a {} affects button links so use a none genral approach */
+.feature-content-description a{
+    text-decoration: none;
+     color: #337ab7;          /*for the unsplash link */
+  }
+
+
+  
+.feature-content-link {
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 25px;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.feature-content-title:hover, .feature-content-link:link ,.feature-content-link:visited{
+    color: #fff;
+}
+
+.green-text{
+    color:  #178A27;
+}
+
+.blue-text{color:  #1686C1;
+}
+
+.red-text{ color: #C9302C;
+}
+
+.green-button { background: #178A27;
+ }
+
+.green-button:hover { background: #449D44;
+ }
+
+.blue-button { background: #1686C1;
+ }
+
+.blue-button:hover { background: #31B0D5; 
+}
+
+.red-button { background: #852406; 
+}
+
+.red-button:hover { background: #C9302C; 
+}
+
+/* BLOG CSS STARTS HERE */
+
+
+
+.blog-content {
+    background: #F2F2F2;
+    padding-bottom:25px;
+    max-width: 555px;
+    margin: 20px auto;
+  }
+
+  .blog-content h2 {
+    color: #666666;
+    text-align: center;
+}
+.blog-content p {
+    padding: 27px;
+    text-align: left;
+    color: #333333;
+}
+
+.blog-content span {
+    position: relative;
+    left: 277px;
+  
+  }
+
+  .blog-content span a{
+    font-size: 19px;
+    text-decoration: none;
+    color:  #666666;
+    border: 1px solid #ccc;
+    padding: 9px 18px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border-radius: 15%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+}
+
+.blog-content span:hover{
+    background-color: #E6E6E6;
+
+}
